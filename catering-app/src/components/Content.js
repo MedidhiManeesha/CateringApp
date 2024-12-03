@@ -14,50 +14,6 @@ import CalendarTodayIcon from '@mui/icons-material/CalendarToday';
 import LocalOfferIcon from '@mui/icons-material/LocalOffer';
 import RestaurantIcon from '@mui/icons-material/Restaurant';
 
-// const items = [
-//   {
-//     icon: <SettingsSuggestRoundedIcon sx={{ color: 'text.secondary' }} />,
-//     title: 'Billing Terms',
-//     description:
-//       'We will charge guaranteed actual guests whichever is higher.',
-//   },
-//   {
-//     icon: <ConstructionRoundedIcon sx={{ color: 'text.secondary' }} />,
-//     title: 'Advance Payment Policy',
-//     description:
-//       '50% advance should be paid at the time of confirmation.',
-//   },
-//   {
-//     icon: <ThumbUpAltRoundedIcon sx={{ color: 'text.secondary' }} />,
-//     title: 'Liability Disclaimer',
-//     description:
-//       'Advance once paid shall not be refunded.',
-//   },
-//   {
-//     icon: <AutoFixHighRoundedIcon sx={{ color: 'text.secondary' }} />,
-//     title: 'Decoration Policy',
-//     description:
-//       'Management is not responsible for their valuables & belongings.',
-//   },
-//   {
-//     icon: <AutoFixHighRoundedIcon sx={{ color: 'text.secondary' }} />,
-//     title: 'Menu Submission Deadline',
-//     description:
-//       'Outside flower decorators are not allowed, Menu to be given 3 days before the function.',
-//   },
-//   {
-//     icon: <AutoFixHighRoundedIcon sx={{ color: 'text.secondary' }} />,
-//     title: 'Discount Policy',
-//     description:
-//       'No discounts allowed after making the confirmation.',
-//   },
-//   {
-//     icon: <AutoFixHighRoundedIcon sx={{ color: 'text.secondary' }} />,
-//     title: 'Food Provision',
-//     description:
-//       'The rest of the food will not be provided.',
-//   },
-// ];
 
 const items = [
   {
@@ -128,14 +84,14 @@ export default function Content() {
               gutterBottom
               sx={{
                 fontWeight: 'medium',
-                fontSize: { xs: 'body1', sm: 'h6' }, // Adjust font size for responsiveness
+                fontSize: { xs: 'body1', sm: 'h6' }, 
               }}
             >
               {item.title}
             </Typography>
             <Typography
               variant="body2"
-              sx={{ color: 'text.secondary', fontSize: { xs: 'body2', sm: 'body1' } }} // Ensure text is readable on smaller screens
+              sx={{ color: 'text.secondary', fontSize: { xs: 'body2', sm: 'body1' } }} 
             >
               {item.description}
             </Typography>

@@ -81,13 +81,13 @@ export default function MenuTabs({ customerDetails }) {
     Object.keys(selectedItems).forEach((menuType) => {
       const menu = selectedItems[menuType];
       Object.keys(menu).forEach((category) => {
-        const inputDetail = menu[category]; // This is the input value for the category
+        const inputDetail = menu[category]; 
         const items = menu[category]?.items || [];
         
         // Add items to the PDF table
         items.forEach((item) => {
-          const input = inputText[menuType]?.[category]?.[item] || ""; // Get input text for the item
-          tableData.push([item, input]); // Add item and input to the table data
+          const input = inputText[menuType]?.[category]?.[item] || ""; 
+          tableData.push([item, input]); 
         });
       });
     });
