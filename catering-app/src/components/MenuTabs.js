@@ -346,11 +346,7 @@ return (
             <Tab
               label={
                 <Typography
-                  
-                  // sx={{
-                  //   fontFamily: "'Times New Roman', serif", 
-                  //   fontWeight: "bold", 
-                  // }}
+                
                 >
                   Standard Menu
                 </Typography>
@@ -362,8 +358,6 @@ return (
                   <Typography
                    
                     sx={{
-                      // fontFamily: "'Times New Roman', serif", 
-                      // fontWeight: "bold",
                       color: "gold", 
                     }}
                   >
