@@ -210,42 +210,6 @@ const renderMenu = (menuType, menuData) => (
   </Grid>
 );
 
-// const sendEmail = () => {
-//   setIsLoading(true);
-//   if (!customerDetails || !selectedItems) {
-//     console.error("Missing customer details or selected items.");
-//     setIsLoading(false);
-//     return;
-//   }
-
-//   const templateParams = {
-//     customer_name: customerDetails.customerName, // Assuming customer details are passed correctly
-//     customer_phone: customerDetails.customerContact,
-//     customer_email: customerDetails.customerEmail, // Make sure customerEmail is part of formData or customerDetails
-//     selected_items: JSON.stringify(selectedItems), // Assuming selectedItems is an object, convert it to string
-//     additional_details: "Additional information here", // You can add more details if needed
-//   };
-
-//   const pdfBase64 = generatePDF(); // Ensure generatePDF() returns the PDF as base64, if required
-
-//   // If you need to attach the PDF as a base64 string (optional)
-//   if (pdfBase64) {
-//     templateParams.attachment = pdfBase64;
-//   }
-//   emailjs.init("Av2TXOjQjCbl0DDWw");
-
-//   emailjs
-//     .send("service_og0ohsb", "template_xbavx43", templateParams)
-//     .then((response) => {
-//       alert("Email sent successfully.");
-//       setIsLoading(false);
-//     })
-//     .catch((error) => {
-//       console.error("Failed to send email", error.text);
-//       alert("Failed to send email: " + error.text);
-//       setIsLoading(false);
-//     });
-// };
 const sendEmail = () => {
   setIsLoading(true);
   
@@ -258,11 +222,11 @@ const sendEmail = () => {
   const templateParams = {
     customer_name: customerDetails.customerName || "N/A", 
     customer_phone: customerDetails.customerContact || "N/A", 
-    selected_items: JSON.stringify(selectedItems) || "[]", // Ensure this is defined
-    additional_details: "Additional information here", // You can add more details if needed
+    selected_items: JSON.stringify(selectedItems) || "[]",
+    additional_details: "Additional information here",
   };
 
-  console.log("Template Params:", templateParams); // Log the parameters
+  console.log("Template Params:", templateParams); 
 
   emailjs.init("Av2TXOjQjCbl0DDWw");
 
