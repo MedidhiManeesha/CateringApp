@@ -1,0 +1,32 @@
+{
+   "standardMenu": [
+    { "label": "Welcome Drink", "items": ["Soft Drink", "Fruit Juice"] },
+    { "label": "Soups", "items": ["Veg Sweet Corn", "Tomato", "Hot & Sour"] },
+    { "label": "Sweet", "items": ["Bread Halwa", "Gulabjam", "Pineapple Ravvakesari"] },
+    { "label": "Hot", "items": ["Veg Manchuria", "Babycorn Manchuria", "Crispy Babycorn", "Crispy Veg"] },
+    { "label": "Indian Breads", "items": ["Butter Roti", "Butter Naan", "Pulka"] },
+    { "label": "North Indian Curry", "items": ["Mixed Veg Curry ", " Veg Chettinadu", "Kadai Vegetables", "Veg Keema Curry","Veg Maharani"] },
+    { "label": "Special Rice", "items": ["Veg Biryani", "Veg Pulav", "Veg Friedrice", "Jeera Rice", "Tamarind Rice"] },
+    { "label": "South Indian Dal", "items": ["Muddapappu", "Tomato Pappu", "Dosakaya Pappu", "Aakukura Pappu", "Mamidikaya Pappu (Season)"] },
+    { "label": "South Indian Curry", "items": ["Tomato Drumstick", "Gutti Vankaya", "Alu Tomato", "Vankaya Tomato Greenpeace", "Beerakaya Senagapappu", "Mukkala Pulusu"] },
+    { "label": "South Indian Fry", "items": ["Alu/Alu 65/Alu Poosa", "Bendakaya", "Dondakaya Pakodi/65", "Cabbage 65", "Vankaya Pakodi", "Aakukura Pakodi"] },
+    { "label": "South Indian Chetney", "items": ["Tomato Kothimeera", "Vankai Dosakaya", "Beerakaya/Dondakaya", "Cabbage/Sorakaya"] },
+    { "label": "Ice Cream", "items": ["Vanilla", "Strawberry", "Pista", "Butterscotch"] }
+  ],
+  "premiumMenu":[
+    { "label": "Welcome Drink", "items": ["Badam Milk", "Fruit Punch"] },
+    { "label": "Soups", "items": ["Veg Manchow", "Veg Clear", "Cream of Mushroom"] },
+    { "label": "Sweet", "items": ["Carrot Halwa", "Gulabjam", "Malaipuri"] },
+    { "label": "Hot", "items": ["Veg Manchuria", "Veg Bullet", "Seshmi Veg", "Classic Veg"] },
+    { "label": "Indian Breads", "items": ["Rumali Roti", "Butter Naan", "Kulcha"] },
+    { "label": "North Indian Curry", "items": ["Paneer Butter Masala", "Kadai Paneer", "Mushroom Masala", "Babycorn Masala", "Tomato Cashew Curry"] },
+{ "label": "Special Rice", "items": ["Veg Biryani/Veg Pulav", "Paneer Biryani/Cashew Biryani", "Paneer Fried Rice", "Mixed Veg Fried Rice", "Kaju Fried Rice"] },
+{ "label": "South Indian Dal", "items": ["Muddapappu", "Tomato Pappu", "Dosakaya Pappu", "Aakukura Pappu", "Mamidikaya Pappu (Season)"] },
+{ "label": "South Indian Curry", "items": ["Tomato Drumstick", "Gutti Vankaya", "Alu Tomato", "Vankaya Tomato Greenpeace", "Beerakaya Senagapappu", "Mukkala Pulusu"] },
+{ "label": "South Indian Fry", "items": ["Alu/Alu 65/Alu Poosa", "Bendakaya with Cashew", "Dondakaya Pakodi with Cashew", "Cabbage 65", "Vankaya Pakodi with Cashew", "Aakukura Pakodi"] },
+{ "label": "South Indian Chetney", "items": ["Tomato Kothimeera", "Vankai Dosakaya", "Beerakaya/Dondakaya", "Cabbage/Sorakaya"] },
+{ "label": "Ice Cream", "items": ["Vanilla/Strawberry", "Chocolate/Pista", "Caramilnuts/Butterscotch", "Tooty Fruity"] }
+  ]
+  
+}
+   
